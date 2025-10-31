@@ -9,5 +9,7 @@ ici les commende inmportant sont
 *** pip freeze > requirements.txt*** elle permet de copier tout nos bibliotheque
 *** pip install django *** elle permet d'installer django 
 *** django-admin startproject learndjango *** permet de creer un projet en django
- 
+
+ ## 2 les composants
+
 
