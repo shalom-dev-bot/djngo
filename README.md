@@ -11,5 +11,12 @@ ici les commende inmportant sont
 *** django-admin startproject learndjango *** permet de creer un projet en django
 
  ## 2 les composants
-
+ les composants ou applivation dans django permettent de ne pas tout melanger les taches dans un meme fichier 
+ et la commande permettant de creer cela est la suivante *** python3 manage.py startapp et le nom de l'application que tu voudrais donner par exemple produits *** 
+  ce dossier apres sa creation doit etre mise dans le fichier settings puis faire une premier migrations avec la commande  *** python3 manage.py migrate***   dans l'application creer il ya les fichier comme 
+  ### A model.py
+les models  ici dand django on utilise le model ORM pour etablir un model et par la suite apres migration elle serait automatiquement transformer pas besoin d'ecrir sur sql ici voila un avantage sur cela 
+poir que le model qu'on creer puis rester dans le super admin il faut enregistrer ce model dans admin.py du meme dossier 
+ ### B admin.py
+ est le  fichier qui contient tout les models ainsi permettant l'enregistrement et l'afficahge dans le super admin 
 
