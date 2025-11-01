@@ -6,4 +6,5 @@ class Produit(models.Model):
     description = models.TextField(blank=True, null=True)
     prix        = models.DecimalField(max_digits=10000, decimal_places=2)
     active      = models.BooleanField()
-    live        =models.BooleanField()
+    live        = models.BooleanField()
+    is_deleted  = models.BooleanField(null=True)
