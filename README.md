@@ -16,7 +16,10 @@ ici les commende inmportant sont
   ce dossier apres sa creation doit etre mise dans le fichier settings puis faire une premier migrations avec la commande  *** python3 manage.py migrate***   dans l'application creer il ya les fichier comme 
   ### A model.py
 les models  ici dand django on utilise le model ORM pour etablir un model et par la suite apres migration elle serait automatiquement transformer pas besoin d'ecrir sur sql ici voila un avantage sur cela 
-poir que le model qu'on creer puis rester dans le super admin il faut enregistrer ce model dans admin.py du meme dossier 
+poir que le model qu'on creer puis rester dans le super admin il faut enregistrer ce model dans admin.py du meme dossier   et de plus on peus ajouter les object a travers le shell avec les commande suivante  
+*** python3 manage.py shell*** cela pour acceder au shell  
+et de plus pour pour augmenter les produit on passe par le manager qui est le suivants 
+*** produits.objects.create *** et on ajoute les element qu'on veux ajouter
  ### B admin.py
  est le  fichier qui contient tout les models ainsi permettant l'enregistrement et l'afficahge dans le super admin 
 
