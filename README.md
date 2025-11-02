@@ -23,3 +23,8 @@ et de plus pour pour augmenter les produit on passe par le manager qui est le su
  ### B admin.py
  est le  fichier qui contient tout les models ainsi permettant l'enregistrement et l'afficahge dans le super admin 
 
+ ## les view.py
+ elle permettent de creer les fonction que l'on voudrais executer 
+ et pour que cela fonctionne nous devons creer une route dans l'url du settings ensuite determiner la route 
+ on appelle cela le  *** path*** chemin d'access
+
